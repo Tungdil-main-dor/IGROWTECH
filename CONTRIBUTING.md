@@ -1,6 +1,7 @@
 import time
 
 contributing = 0
+
 contributing = int(input("do u wanna contribut ? ( please insert number between 1 and U+221E ):"))
 
 if contributing != 0:
