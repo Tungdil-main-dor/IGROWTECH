@@ -1,41 +1,35 @@
 import RPi.GPIO as GPIO
-
-from test_fonction_def_python import Capteurs_lvl_BAC_Culture
-from test_fonction_def_python import Capteurs_lvl_BAC_EAU
-from test_fonction_def_python import Capteurs_lvl_BAC_engrais
-from test_fonction_def_python import Capteurs_Humidité
-from test_fonction_def_python import Capteurs_PH
-from test_fonction_def_python import Capteurs_EC
-from test_fonction_def_python import Capteurs_Température
-from test_fonction_def_python import Capteurs_LUX
+from RGN_CAPTEURS import *
 
 configuration = GPIO.getmode()
 
-print("Configuration actuelle du Raspberry PI :", configuration)
+print("Configuration GPIO actuelle du Raspberry PI :", configuration)
+
+# Définis le mode d'adressage des pin GPIO comme étant BCM
+# PLus d'information sur https://pinout.xyz
 
 if configuration != "none":
     GPIO.setmode(GPIO.BCM)
 else :
     print(OK)
 
+# Les valeurs qui suivents sont générer à partir du programme RNG_CAPTEURS,
+# Il n'est donc plus nécéssaire de les entrées en dure dans le système
+
+# Capteurs_PH = 0
+# Capteurs_EC = 1
+# Capteurs_LUX = 7
+# Capteurs_Température = 8
+# Capteurs_Humidité = 0
+# Capteurs_lvl_BAC_Culture = 25
+# Capteurs_lvl_BAC_EAU = 9
+# Capteurs_lvl_BAC_engrais = 10
+# Pompe de brassage = alimenter en continue
+# Pompe a air = alimenter en continue
 
 
-
-
-Capteurs_PH = 0
-Capteurs_EC = 1
-Capteurs_LUX = 7
-Capteurs_Température = 8
-Capteurs_Humidité = 0
-Capteurs_lvl_BAC_Culture = 25
-Capteurs_lvl_BAC_EAU = 9
-Capteurs_lvl_BAC_engrais = 10
-
-# Pompe de brassage reservoir principale alimenter en continue
-# Pompe a air alimenter en continue
-
-
-# ici les ports GPIO sont declarer comme etant des sortie (OUT), initialise a l'etat HIGH ( activer )
+# ici, les ports GPIO sont déclarer comme étant des sorties (OUT), initialiser à l'état HIGH ( activer )
+# Bien qu'il puisse (et même très probablement) par la suite être initialiser à LOW ( inactif )
 # les ligne de code GPIO.output permette de modifier les valeurs d'état initiales rapidement
 
 GPIO.setup(Pompe_Arrosage,GPIO.OUT,initial=GPIO.HIGH)
@@ -73,7 +67,7 @@ try:
 
             GPIO.output(Ventilateur,int(request[5]))
         else :
-            print("ENCULER APPREND A LIRE !!! \n cordialement <3 \n \n")
+            print("pas de violence, lire : append.... !!! \n cordialement <3 \n \n")
 
 except KeyboardInterrupt:
     GPIO.cleanup()
