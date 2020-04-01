@@ -1,6 +1,5 @@
 # Suite à l'impossibilité de commander les capteurs nécéssaire au projets, les données fournies par les capteurs du système sont,
 # Générer, puis affecté a un ficher text au qu'elle on aura accées a travers une émulation de trame i2c.
-Les données générrée 
 print("""
 
  I   Utilisation de l'utilitaire intégré a raspberry pi permettant la lecture de l'I2C sur les ports GPIO 
@@ -36,6 +35,22 @@ def lightlevel():
 def range():
         range1 = bus.read_byte_data(address, 2)
         range2 = bus.read_byte_data(address, 3)
+        range3 = (range1 << 8) + range2
+        return range3
+
+while True:
+        write(0x51)
+        time.sleep(0.7)
+        lightlvl = lightlevel()
+        rng = range()
+        print lightlvl
+        print rng
+
+
+
+        """)
+
+
         range3 = (range1 << 8) + range2
         return range3
 
