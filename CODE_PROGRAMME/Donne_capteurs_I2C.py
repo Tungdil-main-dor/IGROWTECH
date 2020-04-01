@@ -17,7 +17,8 @@ print("""
         60: 60 -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         70: -- -- -- -- -- -- -- --
 
-# en effet le BUS i2C posséde 
+# en effet le BUS i2C posséde 127 adresse ;)
+
     La valeur 0x60 correspond à l'adresse I2C du capteur avec lequel on veut intéragire,
 
     Exemple de script python récupérant une valeur stocker à une adresse i2c définit  :
