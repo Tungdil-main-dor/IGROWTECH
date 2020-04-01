@@ -254,7 +254,9 @@ while i == 1:
             )
             limite_backup_log = 0
             print(
-                "Le fichier de log ayant atteint sa taille limite, une archive de celui-ci à étais générer dans le dossier archive_donnee_capteurs "
+                "Le fichier de log ayant atteint sa taille limite, "
+                "une archive de celui-ci à étais générer dans le dossier"
+                "archive_donnee_capteurs "
             )
             time.sleep(int(Delais_Mesure))
             os.system("touch DONNEE_CAPTEURS.log")
