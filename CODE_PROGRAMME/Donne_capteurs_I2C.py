@@ -1,5 +1,6 @@
 # Suite à l'impossibilité de commander les capteurs nécéssaire au projets, les données fournies par les capteurs du système sont,
-# Générer à partir du script si dessous
+# Générer, puis affecté a un ficher text au qu'elle on aura accées a travers une émulation de trame i2c.
+Les données générrée 
 print("""
 
  I   Utilisation de l'utilitaire intégré a raspberry pi permettant la lecture de l'I2C sur les ports GPIO 
@@ -16,6 +17,7 @@ print("""
         60: 60 -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
         70: -- -- -- -- -- -- -- --
 
+# en effet le BUS i2C posséde 
     La valeur 0x60 correspond à l'adresse I2C du capteur avec lequel on veut intéragire,
 
     Exemple de script python récupérant une valeur stocker à une adresse i2c définit  :
