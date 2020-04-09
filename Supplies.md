@@ -1,7 +1,7 @@
 # IN PROGRESSE
 
 
-#I.  Electronic Components:
+##I.  Electronic Components:
 
     Raspberry Pi 4
     Breadboard
@@ -20,7 +20,7 @@
     Water cooler
     
    
-#II. Materials:
+##II. Materials:
 
     2" PVC Pipe - I used around 2/3 meters
     2x 2" 90° Bend
@@ -38,7 +38,7 @@
     Hydroponic pH Down - Phosphoric Acid
     Propagation/Seeding Tray
 
-#III. Tools:
+##III. Tools:
 
     Electric Handheld Cordless Drill
     Handheld Jigsaw
