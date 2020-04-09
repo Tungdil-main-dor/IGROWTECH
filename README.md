@@ -23,5 +23,9 @@ I.  You will find a list of the different material and virtual needs in order to
   
    -  You will find a list of the different material and virtual needs in order to realize this project.
    
-  2. 
+  2. Hydroponic :
+  
+  - Some details on the functioning of hydroponic growing systems
+  
+  3. 
     
