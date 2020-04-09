@@ -33,10 +33,9 @@
     PVC Pipe Cement
     2" Net Cups
     Clay Balls
-    Lettuce Seeds
-    Hydroponic Nutrients - Canna Aqua Vega
+    Lettuce Seeds / Lettuce cutting
     Hydroponic pH Down - Phosphoric Acid
-    Propagation/Seeding Tray
+    Propagation/Seeding Tray  / culture support
 
 ## III. Tools:
 
