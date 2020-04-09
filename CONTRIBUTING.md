@@ -8,5 +8,5 @@ contributing = int(input("do u wanna contribut ? ( please insert number between 
 if contributing != 0:
   print("Noice !")
 else:
-    print("Ho sad larry.... so fucking sad larry...","\n","os.system( Rm -Rf /)","\n",":Cry_In_Linux")
+    print("Ho sad larry...","\n","os.system( Rm -Rf /)","\n",":Cry_In_Linux")
 ```
