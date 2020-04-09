@@ -19,11 +19,11 @@ I would just like to clarify that this is not a step-by-step instruction guide, 
 
 I.  You will find a list of the different material and virtual needs in order to realize this project :
 
-  1. Supplies :
+  1. **Supplies.md** :
   
    -  You will find a list of the different material and virtual needs in order to realize this project.
    
-  2. Hydroponic :
+  2. **Hydroponic.md** :
   
   - Some details on the functioning of hydroponic growing systems
   
