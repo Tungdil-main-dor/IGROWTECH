@@ -14,3 +14,14 @@ The advantage of this project is that it does not require a lot of materials and
 
 I would just like to clarify that this is not a step-by-step instruction guide, but rather a way for me to document my project and share it with others.
 
+
+# IN PROGRESSE
+
+I.  You will find a list of the different material and virtual needs in order to realize this project :
+
+  1. Supplies :
+  
+   -  You will find a list of the different material and virtual needs in order to realize this project.
+   
+  2. 
+    
