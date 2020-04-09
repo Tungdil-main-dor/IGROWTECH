@@ -1,7 +1,7 @@
 # IN PROGRESSE
 
 
-##I.  Electronic Components:
+## I.  Electronic Components:
 
     Raspberry Pi 4
     Breadboard
@@ -9,7 +9,7 @@
     EC Meter
     pH Sensor
     Temperature Sensor
-4   Level Sensor ( Tank lvl monitoring, ph, fertilizer, water)
+    4 Level Sensor ( Tank lvl monitoring, ph, fertilizer, water)
     LED Grow Light
     Fan
     8 Way Relay Boards
@@ -20,7 +20,7 @@
     Water cooler
     
    
-##II. Materials:
+## II. Materials:
 
     2" PVC Pipe - I used around 2/3 meters
     2x 2" 90° Bend
@@ -38,7 +38,7 @@
     Hydroponic pH Down - Phosphoric Acid
     Propagation/Seeding Tray
 
-##III. Tools:
+## III. Tools:
 
     Electric Handheld Cordless Drill
     Handheld Jigsaw
