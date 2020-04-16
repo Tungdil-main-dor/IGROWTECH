@@ -280,7 +280,9 @@ while i == 1:
             print(
                 "Niv bac culture                  = ", Capteurs_lvl_BAC_Culture(), "%"
             )
-
+            os.system(
+                "cat /home/mint-on-fire/Bureau/Projet_BTS/CODE_PROGRAMME/Pika_test | lolcat"
+            )
 # idée optimisation : Utiliser 2 listes (int, float) pour réduire le nombre de ligne de code.
 # Copyright craficafia.lsboagrs34gd.onion
 # Crosse platforme euh non, linux :)
