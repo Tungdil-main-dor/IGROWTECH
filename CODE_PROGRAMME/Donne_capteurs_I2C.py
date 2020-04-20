@@ -1,4 +1,3 @@
-# Suite à l'impossibilité de commander les capteurs nécéssaire au projets, les données fournies par les capteurs du système sont,
 # Générer, puis affecté a un ficher text au qu'elle on aura accées a travers une émulation de trame i2c.
 print("""
 
