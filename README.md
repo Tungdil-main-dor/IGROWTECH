@@ -25,7 +25,9 @@ I.  You will find a list of the different material and virtual needs in order to
    
   2. [**Hydroponic**](/Hydroponic.md "Explanation of how hydroponic systems work") :
   
-  - Some details on the functioning of hydroponic growing systems
+  - Some details on the functioning of hydroponic growing systems.
   
   3. [**Structure**](/Structure.md "Presentation of the structure and its components") :
+  
+  - A presentation of the list of components as well as photos of the final result.
     
