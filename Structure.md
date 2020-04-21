@@ -9,12 +9,13 @@ For ease of use, a wooden structure mounted on casters is used to move the syste
 
     
     Fir rafters 65 cm                                     x4
-    Fir rafters 52 cm                                     x5   ( one for the support of the upper centre tray )
+    Fir rafters 52 cm                                     x5   (one for the support of the upper centre tray)
     Fir rafters 71 cm                                     x4
     Farge fir rafters 190 cm                              x1
     Water-repellent anthracite medium panel  60*80*3 cm   x2
     Screws several different lengths
     Water-repellent sealer
+    Metal angle iron                                      x12
     
 
 
