@@ -4,7 +4,8 @@ For ease of use, a wooden structure mounted on casters is used to move the syste
 
 ![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/Final_step_Structure.jpeg "pictures of the final structure")
 
-Wooden structure of the system :
+
+**Wooden structure of the system** :
 
     
     Fir rafters 65 cm                                     x4
@@ -15,6 +16,9 @@ Wooden structure of the system :
     Screws several different lengths
     Water-repellent sealer
     
+
+
 After having a cup of tea on the anthracite tray, I realized that it wasn't really water repellent...So I bought a sealer and put 3 successive coats on the whole system.
+
 
 ![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/water-proof_sealer.jpeg "pictures of the water-proof sealer steps")
