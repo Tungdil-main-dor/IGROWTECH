@@ -30,6 +30,12 @@ In addition to that, there are multiple different techniques which one can choos
 ## I.Deep Water Culture:
 
   In Deep Water Culture, plants are grown in containers of nutrient solution. The roots of the plant are suspended just above the solution, allowing enough oxygen to get to the roots. The resovoir for this technique may be as simple as a glass jar, or larger containers with enough space for multiple plants. In all cases, however, the resovoir should be either a dark colour, or have a cover over it, to prevent light getting in. If light does get in, there is the possibility for algae to grow, which takes nutrients away from the plants.
+  
+  
+
+![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/Diagram_of_the_water_part_of_the_system.jpeg "Diagram of DWC système used in this projct")
+  
+  
 
 ## II.Nutrients Film Technique
 In continuous-flow solution culture, also known as the NFT or Nutrient Film Technique, the nutrient solution constantly flows past the roots. This is the method I will be using. This method gives you the ability to make changes to things such as pH levels, and EC (electrical conductivity) levels. We will go over these later. With this method, you must be careful to properly regulate the flow of water. A flow that is too fast will result in nutrient deficiency, and a flow too slow will also result in the same.
