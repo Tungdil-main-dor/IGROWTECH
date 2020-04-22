@@ -2,6 +2,7 @@
 
 For ease of use, a wooden structure mounted on casters is used to move the system more easily. I chose the DWC system (Deep Water Culture) for practical reasons, such as being able to pass through the various doors that make up the housing.
 
+## Strucutre Appearence
 ![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/Final_step_Structure.jpeg "pictures of the final structure")
 
 
