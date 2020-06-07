@@ -3,7 +3,7 @@ import random
 import time
 import os
 
-# Chemin écrit en dure par facilité a remplacer par les variables système $USER......
+# Chemin écrit en dure par facilité a remplacer par les variables système $USER..
 os.chdir("/home/mint-on-fire/Bureau/Projet_BTS/DONNEE_CAPTEURS")
 os.system("mkdir archive_donnee_capteurs")
 
@@ -30,7 +30,7 @@ if choix.lower() == "y":
     print("1")
     time.sleep(1)
 else:
-    raise Exception("Sorry no more code for u....HOoOo sad larry...")
+    raise Exception("Le code à était interompus par l'utilisateur")
 
 # actionneur_RGN = str(input("Voulez-vous utiliser le générateur de valeur ? (Y/N) :"))
 
@@ -284,5 +284,3 @@ while i == 1:
                 "cat /home/mint-on-fire/Bureau/Projet_BTS/CODE_PROGRAMME/Pika_test | lolcat"
             )
 # idée optimisation : Utiliser 2 listes (int, float) pour réduire le nombre de ligne de code.
-# Copyright craficafia.lsboagrs34gd.onion
-# Crosse platforme euh non, linux :)
