@@ -30,4 +30,8 @@ I.  You will find a list of the different material and virtual needs in order to
   3. [**Structure**](/Structure.md "Presentation of the structure and its components") :
   
   - A presentation of the list of components as well as photos of the final result.
+  
+  4. [**Electronical**](/Electronical.md "Presentation of wirering and electronical things") :
+  
+  - Presentation of wirering and electronical things
     
