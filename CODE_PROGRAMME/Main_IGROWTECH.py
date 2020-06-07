@@ -11,7 +11,7 @@ print("Configuration GPIO actuelle du Raspberry PI :", configuration)
 if configuration != "BCM":
     GPIO.setmode(GPIO.BCM)
 else :
-    print(OK)
+    print(Les ports GPIO sont configuré en mode adressage BCM)
 
 # Les valeurs qui suivents sont générer à partir du programme RNG_CAPTEURS,
 # Il n'est donc plus nécéssaire de les entrées en dure dans le système
@@ -26,9 +26,9 @@ else :
 # Capteurs_lvl_BAC_engrais = 10
 
 
-# ici, les ports GPIO sont déclarer comme étant des sorties (OUT), initialiser à l'état HIGH ( activer )
+# Ici, les ports GPIO sont déclarer comme étant des sorties (OUT), initialiser à l'état HIGH ( activer )
 # Bien qu'il puisse (et même très probablement) par la suite être initialiser à LOW ( inactif )
-# les ligne de code GPIO.output permette de modifier les valeurs d'état 1 HIGH, 0 LOW
+# Les ligne de code GPIO.output permette de modifier les valeurs d'état 1 HIGH, 0 LOW
 
 Pompe_Arrosage = 21
 Pompe_Engrais = 26
@@ -39,7 +39,7 @@ Ventilateur = 13
 Pompe_PH = 12
 # Pompe de brassage = alimenter en continue
 # Pompe a air = alimenter en continue
-# Caméra = alimenter par la carte raspberry pi
+# Caméra = alimenter par la carte raspberry pi par default
 
 GPIO.setup(Pompe_Arrosage,GPIO.OUT,initial=GPIO.HIGH)
 GPIO.output(Pompe_Arrosage,1)
@@ -60,7 +60,7 @@ try:
 
     while(True):
 
-        request = input("Entre etat GPIO : \n 0 = desactiver \n 1 = activer \n On attend 6 valeurs a la suite, 0 ou 1, ecrit a la suite sans espace -->")
+        request = input("Entre etat GPIO : \n 0 = desactiver \n 1 = activer \n On attend 7 valeurs a la suite, 0 ou 1, ecrit a la suite sans espace -->")
 
         if (len(request) == 7):
 
@@ -78,7 +78,7 @@ try:
 
             GPIO.output(Pompe_PH,int(request[6]))
         else :
-            print("pas de violence, lire : append.... !!! \n cordialement <3 \n \n")
+            print("Vous n'avez pas rentrée 7 valeurs comprise entre 0 ou 1, à la suite sans espace")
 
 except KeyboardInterrupt:
     GPIO.cleanup()
