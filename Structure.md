@@ -24,3 +24,5 @@ After having a cup of tea on the anthracite tray, I realized that it wasn't real
 
 
 ![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/water-proof_sealer.jpeg "pictures of the water-proof sealer steps")
+
+
