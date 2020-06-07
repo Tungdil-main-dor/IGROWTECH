@@ -23,6 +23,6 @@ For ease of use, a wooden structure mounted on casters is used to move the syste
 After having a cup of tea on the anthracite tray, I realized that it wasn't really water repellent...So I bought a sealer and put 3 successive coats on the whole system.
 
 
-![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/water-proof_sealer.jpeg "pictures of the water-proof sealer steps")
+![alt text](https://github.com/Tungdil-main-dor/IGROWTECH/blob/master/images/water-proof_sealer.jpeg "pictures of the water-proof sealer steps applied on the structure")
 
 
