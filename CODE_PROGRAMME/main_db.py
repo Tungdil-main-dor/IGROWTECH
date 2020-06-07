@@ -4,11 +4,9 @@
 from collections import OrderedDict
 from datetime import date, datetime, timedelta
 import os
-
 from peewee import *
 
 db = SqliteDatabase('garden.db')
-
 
 class Plant(Model):
     """Model for creating plant items.
