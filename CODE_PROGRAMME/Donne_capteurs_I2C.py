@@ -19,7 +19,8 @@ print("""
 
     La valeur 0x60 correspond à l'adresse I2C du capteur avec lequel on veut intéragire,
 
-    Exemple de script python récupérant une valeur stocker à une adresse i2c définit  :
+    Exemple de script python récupérant une valeur stocker à une adresse i2c définit 
+    et qui fait varier l'intensité d'une lumière  :
 
 import smbus
 import time
@@ -38,30 +39,10 @@ def range():
         return range3
 
 while True:
-        write(0x51)
+        write(0x60)
         time.sleep(0.7)
         lightlvl = lightlevel()
         rng = range()
         print lightlvl
         print rng
-
-
-
-        """)
-
-
-        range3 = (range1 << 8) + range2
-        return range3
-
-while True:
-        write(0x51)
-        time.sleep(0.7)
-        lightlvl = lightlevel()
-        rng = range()
-        print lightlvl
-        print rng
-
-
-
-        """)
 
