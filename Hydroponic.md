@@ -39,3 +39,5 @@ In addition to that, there are multiple different techniques which one can choos
 
 ## II.Nutrients Film Technique
 In continuous-flow solution culture, also known as the NFT or Nutrient Film Technique, the nutrient solution constantly flows past the roots. This is the method I will be using. This method gives you the ability to make changes to things such as pH levels, and EC (electrical conductivity) levels. We will go over these later. With this method, you must be careful to properly regulate the flow of water. A flow that is too fast will result in nutrient deficiency, and a flow too slow will also result in the same.
+
+### For the need of the project, I finaly choose DWC, less expensive and less space consuming than the NFT method.
